@@ -79,7 +79,6 @@ public class Connection extends Thread {
 
         try {
 
-            // Receive client name
 
             clientName = input.readLine();
 
@@ -100,7 +99,7 @@ public class Connection extends Thread {
 
         } catch (IOException e) {
 
-            // Handle client disconnection
+            //gestire disconnessione client
 
             System.out.println(clientName + " disconnected.");
 
@@ -113,9 +112,6 @@ public class Connection extends Thread {
 
     private void handleMessage(String message) {
 
-        // Parse and handle the received message
-
-        // Implement logic for handling different message types
 
     }
 
