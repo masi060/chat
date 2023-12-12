@@ -86,7 +86,7 @@ public class Server {
 
         }
 
-        // Handle case when recipient is not found
+        // gestire quando il recipient e' vuoto 
 
     }
 
